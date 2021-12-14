@@ -1,0 +1,225 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*_________________________________
+____________CSS reset______________
+_________________________________*/
+
+body {
+  font-family: 'Roboto', sans-serif;
+	font-size: 12px;
+	font-weight: 300;
+	line-height: 1.5;
+}
+
+h1 {
+  font-weight: 700;
+}
+
+span {
+	font-weight: 300;
+}
+
+.top {
+	position: fixed;
+  display: flex;
+	flex-wrap: nowrap;
+  justify-content: flex-start;
+	align-items: center;
+  width: 95vw;
+  height: 7vh;
+  margin-left: 2.5vw;
+	margin-right: 2.5vw;
+	margin-top: 1vh;
+}
+
+.profile-box {
+  width: 12vw;
+}
+
+.profile {
+  width: 10vw;
+}
+
+.name-time {
+  width: 78vw;
+}
+
+.close-box .close {
+  width: 4vw;
+}
+
+.buttons {
+  position: absolute;
+  display: flex;
+	flex-wrap: nowrap;
+  justify-content: space-between;
+  width: 100vw;
+  height: 75vh;
+	margin: auto;
+	margin-top: 9vh;
+}
+
+.previous-button .next-button {
+  width: 33vw;
+}
+
+.invisible {
+	width: 33vw;
+}
+
+.container {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100vw;
+  height: 100vh;
+}
+
+.story {
+  width: 100vw;
+}
+
+/*_________________________________
+__________media queries____________
+_________________________________*/
+@media only screen and (min-width: 481px) {
+	.top {
+	  width: 70vw;
+	  height: 7vh;
+	  margin-left: 15vw;
+		margin-top: 1vh;
+	}
+
+	.profile-box {
+	  width: 10vw;
+	}
+
+	.profile {
+	  width: 7vw;
+	}
+
+	.name-time {
+	  width: 62.5vw;
+	}
+
+	.close-box .close {
+	  width: 2.5vw;
+	}
+
+	.container {
+		margin-left: 10vw;
+	  width: 80vw;
+	}
+
+	.story {
+		width: 80vw;
+		height: 100vh;
+	}
+
+	.buttons {
+		margin-left: 10vw;
+	  width: 80vw;
+	}
+
+	.previous-button .next-button {
+	  width: 25vw;
+	}
+
+	.invisible {
+		width: 25vw;
+	}
+}
+
+@media only screen and (min-width: 1025px) {
+	.top {
+	  width: 28vw;
+	  height: 7vh;
+	  margin-left: 36.5vw;
+		margin-top: 2vh;
+	}
+
+	.profile-box {
+	  width: 4vw;
+	}
+
+	.profile {
+	  width: 3vw;
+	}
+
+	.name-time {
+	  width: 20vw;
+	}
+
+	.close-box .close {
+	  width: 1vw;
+	}
+
+	.container {
+		margin-left: 35vw;
+	  width: 30vw;
+	}
+
+	.story {
+		width: 30vw;
+	}
+
+	.buttons {
+		margin-left: 35vw;
+	  width: 30vw;
+	}
+
+	.previous-button .next-button {
+	  width: 10vw;
+	}
+
+	.invisible {
+		width: 10vw;
+	}
+}

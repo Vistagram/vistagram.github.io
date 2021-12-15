@@ -83,7 +83,10 @@ a {
 	text-decoration: none;
 	color: black;
 }
-
+.surv a{
+	color: blue;
+	text-decoration: underline;
+}
 nav {
 	position: fixed;
 	top: 0;
@@ -244,10 +247,7 @@ span {
 .time {
 	margin-bottom: 2vh;
 }
-.surv a{
-	color: blue;
-	text-decoration: underline;
-}
+
 
 /*_________________________________
 __________media queries____________

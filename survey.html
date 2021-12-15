@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+<title>Quem matou o Mateus?</title>
+</head>
+
+
+<body>
+
+<link rel="stylesheet" href="survey.css">
+
+
+<div class="container">
+  <header class="header">
+    <h1 id="title" class="text-center">Quem matou o Mateus?</h1>
+    <h4 id="description" class="description text-center">
+      <p>Trabalho realizado por: Carlos Cerqueira, Carolina Barbosa, Catarina Marçal e Catarina Barreiros no âmbito da cadeira de Design Multimédia orientado por Miguel Carvalhais.</p>
+      Obrigada por tirarem o tempo para jogar o nosso jogo.</p>
+<p>Agradecimentos a toda a gente que participou, especialmente a Francisco Silva (Mateus e Matias), Mara Andrade (Jéssica) e Diana Gonçalves (Anabela).
+     </h4>
+  </header>
+  <form id="survey-form"  method="post" action='mailto:quemmatouomateus@gmail.com'>
+
+    <div class="form-group">
+      <h2>Quem matou o Mateus?</h2>
+
+      <label>
+        <input
+          name="killer"
+          type="radio"
+          class="input-radio"
+          value="Anabela"
+        />Anabela (aanaébela)</label>
+
+      <label>
+        <input
+          name="killer"
+          type="radio"
+          class="input-radio"
+          value="Jéssica"
+        />Jéssica (jess_plays)</label>
+
+      <label>
+      <input
+          name="killer"
+          type="radio"
+          class="input-radio"
+          value="Ricardo"
+        />Ricardo (oficinacriminal)</label>
+
+      <label>
+      <input
+          name="killer"
+          type="radio"
+          class="input-radio"
+          value="Matias"
+        />Matias (omatias)</label>
+
+      <label>
+      <input
+          name="killer"
+          type="radio"
+          class="input-radio"
+          value="Teresa"
+        />Teresa (tea_rex)</label>
+
+    </div>
+
+    <div class="form-group">
+      <h2>
+        Como é que o assassinato aconteceu? (Como e quando é que o assassino agiu?)
+      </h2>
+      <textarea
+        id="weapon"
+        class="input-textarea"
+        name="weapon"
+        placeholder="O assassino fez isto a estas horas..."
+      ></textarea>
+    </div>
+
+    <div class="form-group">
+      <h2>
+        Qual é a tua teoria (principalmente para o motivo do crime)?
+      </h2>
+
+      <textarea
+        id="theories"
+        class="input-textarea"
+        name="theory"
+        placeholder="Eis a minha teoria..."
+      ></textarea>
+
+    </div>
+
+    <div class="form-group">
+      <h2>Algum comentário e/ou sugestão sobre o nosso projeto?</h2>
+      <textarea
+        id="comments"
+        class="input-textarea"
+        name="comment"
+        placeholder="Achei que..."
+      ></textarea>
+    </div>
+
+    <div class="form-group">
+      <imput type="submit" value="submit">
+      <button class="submit">
+        Submeter
+      </button>
+          </imput>
+    </div>
+
+  </form>
+</div>
+<script>
+const projectName = 'survey-form';
+</script>
+
+</body>
+</html>
